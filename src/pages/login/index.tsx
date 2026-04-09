@@ -1,11 +1,7 @@
 import React from 'react';
 
-import s from './login.module.scss';
+import { LoginForm } from '@/features/auth';
 
 export const Login: React.FC = () => {
-    return (
-        <div className={s.login}>
-            Login Page
-        </div>
-    );
+    return <LoginForm />;
 };

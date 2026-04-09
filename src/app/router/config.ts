@@ -3,5 +3,6 @@
  */
 export const ROUTES = {
     INDEX: 'index',
-    LOGIN: 'login'
+    LOGIN: 'login',
+    AUTONOMOUS: 'autonomous',
 };
