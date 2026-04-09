@@ -4,9 +4,11 @@ import type { RouteRecordRaw } from '@/shared/types/Router';
 
 // Layouts
 import LayoutDefault from '@/layouts/layout-default';
+import LayoutEmpty from '@/layouts/layout-empty';
 
 // Pages
 import Index from '@/pages/index';
+import { Login } from '@/pages/login';
 
 import { ROUTES } from '@/app/router/config';
 
@@ -18,6 +20,16 @@ const routes: RouteRecordRaw[] = [
                 path:    '/',
                 name:    ROUTES.INDEX,
                 element: <Index />,
+            }
+        ],
+    },
+    {
+        element:  <LayoutEmpty />,
+        children: [
+            {
+                path:    '/login',
+                name:    ROUTES.LOGIN,
+                element: <Login />,
             }
         ],
     }

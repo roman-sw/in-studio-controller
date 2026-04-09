@@ -2,5 +2,6 @@
  * Наименование роутов.
  */
 export const ROUTES = {
-    INDEX: 'index'
+    INDEX: 'index',
+    LOGIN: 'login'
 };
