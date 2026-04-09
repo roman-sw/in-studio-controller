@@ -1,0 +1,46 @@
+$font-path: '../../shared/assets/fonts/';
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url($font-path + 'SFProDisplay-Regular.woff2') format('woff2'),
+       url($font-path + 'SFProDisplay-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url($font-path + 'SFProDisplay-Medium.woff2') format('woff2'),
+       url($font-path + 'SFProDisplay-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url($font-path + 'SFProDisplay-Semibold.woff2') format('woff2'),
+       url($font-path + 'SFProDisplay-Semibold.woff') format('woff');
+  font-style: normal;
+  font-weight: 600;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url($font-path + 'SFProDisplay-Bold.woff2') format('woff2'),
+       url($font-path + 'SFProDisplay-Bold.woff') format('woff');
+  font-style: normal;
+  font-weight: 700;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url($font-path + 'SFProDisplay-RegularItalic.woff2') format('woff2'),
+       url($font-path + 'SFProDisplay-RegularItalic.woff') format('woff');
+  font-style: italic;
+  font-weight: 400;
+  font-display: fallback;
+}
